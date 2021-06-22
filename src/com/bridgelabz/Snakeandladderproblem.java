@@ -32,12 +32,15 @@ public class SnakeAndladderproblem
 	{
 			 System.out.println("No Play");
 	}
+	
+	System.out.print(" "+current_position);
 
-}
+	}
+	
 
-public static void main(String args[])
+      public static void main(String args[])
 {
 	SnakeAndladderproblem	Player = new SnakeAndladderproblem();	
-	Player.GamePlayed();
+	SnakeAndladderproblem.GamePlayed();
 }
 }
